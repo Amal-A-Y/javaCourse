@@ -8,9 +8,6 @@ public class calculator {
 	private static String optionMsg= "Select one of the operation: ( + , _ , * , / )  or # to Exite \n";
 	private static String numbersMsg= "Enter the number one by one :  \n";
 	
-
-
-	//Scanner numbers = new Scanner(System.in);
 	public static void read() {
 		Double  num1 = null ;
 		Double num2 = null;
