@@ -31,22 +31,22 @@ public class calculator {
 		switch (op) {
 		case '+':
 			result=num1+num2;
-			System.out.println(num1 + " + " +num2 + " = " + result );
+			System.out.println(num1 + " + " +num2 + " = " + result + "\n");
 			break; 
 		
 		case '-':
 			result=num1 - num2;
-			System.out.println(num1 + " - " +num2 + " = " + result );
+			System.out.println(num1 + " - " +num2 + " = " + result  + "\n");
 			break;
 		 
 		case '*':
 			result=num1*num2;
-			System.out.println(num1 + " * " +num2 + " = " + result );
+			System.out.println(num1 + " * " +num2 + " = " + result  + "\n");
 			break;
 		 
 		case '/':
 			result=num1/num2;
-			System.out.println(num1 + " / " +num2 + " = " + result );
+			System.out.println(num1 + " / " +num2 + " = " + result  + "\n");
 			break;
         
 		case '#':
@@ -59,7 +59,7 @@ public class calculator {
 		}
 
 			} catch (Exception e) {
-				System.out.println(" wrong please enter number only");
+				System.out.println(" wrong please enter number only \n");
 				
 			}
 		} while (running == true);
